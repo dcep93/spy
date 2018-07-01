@@ -9,8 +9,6 @@ var round; // ?int
 getJSONs([{ path: '/socket_games/words/common.json', name: 'words' }]);
 
 $(document).ready(function() {
-	$('#door').click(door);
-	$('#leave').click(leave);
 	$('#new').click(prepare);
 });
 
